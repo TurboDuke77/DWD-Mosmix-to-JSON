@@ -15,8 +15,7 @@ This PHP script loads the data from the DWD server for the desired location, eit
 
 #### Aufruf Beispiel / example call
 
-- die dwd-forecast-mosmix-json.php wird manuell oder über einen cronjob mehrmals am Tag aufgerufen,
-dabei wird  die MOSMIX_L_LATEST.kmz vom Server opendata.dwd.de geladen und gespeichert
+- die dwd-forecast-mosmix-json.php wird manuell oder über einen cronjob mehrmals am Tag aufgerufen, dabei wird  die MOSMIX_L_LATEST.kmz vom Server opendata.dwd.de geladen und gespeichert
 
 - ein paar Parameter müssen im Script angegeben werden, wie die Station ID, der Download und Ausgabepfad auf dem Server
 
@@ -25,8 +24,8 @@ dabei wird  die MOSMIX_L_LATEST.kmz vom Server opendata.dwd.de geladen und gespe
 
 #### Ausgabe Beispiel für eine Stunde
 
-  "Forecast": {
-    "0": {
+"Forecast": {
+ "0": {
       "0": "Zeitstempel+UTC-Versatz",
       "1": "Datum",
       "2": "Zeitraum bis",
@@ -48,7 +47,7 @@ dabei wird  die MOSMIX_L_LATEST.kmz vom Server opendata.dwd.de geladen und gespe
       "18": "Luftfeuchtigkeit %",
       "19": "icon"
     },
-    "1": {
+"1": {
       "0": "2022-08-30T18:00:00+02:00",
       "1": "2022-08-30",
       "2": "18:00",
@@ -69,7 +68,7 @@ dabei wird  die MOSMIX_L_LATEST.kmz vom Server opendata.dwd.de geladen und gespe
       "17": "stark bewölkt",
       "18": "51",
       "19": "3d.svg"
-    }
+ }
 
 
 ##### MOSMIX_L
