@@ -19,10 +19,10 @@ This PHP script loads the data from the DWD server for the desired location, eit
 
 - ein paar Parameter müssen im Script angegeben werden, wie die Station ID, der Download und Ausgabepfad auf dem Server
 
-- als Ausagbe wird eine aufbereitete JSON Datei mit den stündlichen Wetterparametern erstellt und gespeichert:
+- als Ausgabe wird eine aufbereitete JSON Datei mit den stündlichen Wetterparametern erstellt und gespeichert:
 
 
-#### Ausgabe Beispiel für eine Stunde
+#### Ausgabe Beispiel für eine Stunde in der JSON Datei / output example for one hour
 
 "Forecast": {
  "0": {
