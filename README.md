@@ -73,9 +73,9 @@ This PHP script loads the data from the DWD server for the desired location, eit
 
 
 ##### MOSMIX_L
-- Der MOSMIX-Vorhersagedatensatz "MOSMIX_L" enthält ca. 115 Wettervariablen pro Vorhersage und die maximale Vorhersagezeit beträgt +240 Stunden (10 Tage Trend). Die Vorhersage wird 4 mal täglich um 03, 09, 15 und 21 Uhr UTC vom DWD aktualisiert. 
+- Der MOSMIX-Vorhersagedatensatz "MOSMIX_L" enthält ca. 115 Wettervariablen pro Vorhersage und die maximale Vorhersagezeit beträgt +240 Stunden (10 Tage Trend). Die Vorhersage wird 4 mal täglich um 03, 09, 15 und 21 Uhr UTC vom DWD aktualisiert. Die Download Größe einer MOSMIX_L_.kmz Datei einer DWD Station beträgt 16-20 kbyte, die erstellte JSON Datei ist ca. 60-80 kbyte groß.
 
-- The MOSMIX forecast data set "MOSMIX_L" contains about 115 weather variables per forecast and the maximum forecast time is +240 hours (10 days trend). The forecast is updated 4 times a day at 03, 09, 15 and 21 UTC by DWD.
+- The MOSMIX forecast data set "MOSMIX_L" contains about 115 weather variables per forecast and the maximum forecast time is +240 hours (10 days trend). The forecast is updated 4 times a day at 03, 09, 15 and 21 UTC by DWD. The download size of a MOSMIX_L_.kmz file of a DWD station is 16-20 kbyte, the created JSON file is about 60-80 kbyte.
 
 
 ##### German INFOS und LINKS (some documents you can switch to english)
